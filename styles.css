@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin-left: 500px;
+    text-decoration-style: dotted;
+    font-family: 'Abel', sans-serif;
+    color: #a79c8e;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+hr {
+  border-top: 1px solid white;
+  margin: 0;
+  clear: both;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    border-bottom: 1px solid rgb(247, 248, 198);
+    color: #ff7473;
+    background-color: #f1bbba;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #a79c8e;
+    background-color: white;
+    margin: 10px 10px;
+    padding: 0;
+    display: block;
+    text-align: left;
+}
+
+h3 {
+  color: #c6a49a;
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  display: inline;
+}
+
+input {
+  display: flex;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+input[type=color] {
+  display: inline;
+  border-radius: 25px;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+input[type=number] {
+    width: 4em;
+    display: inline-block;
+}
+
+input[type=submit] {
+  float: left;
+  display: inline-block;
+  background-color: #c6e5d9;
+  border: 1px dotted #c6e5d9;
+  color: #a79c8e;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  padding: 13px;
+}
+
+tr {
+  border: 1px solid black;
+  border-radius: 0px;
+  height: 23px;
+}
+
+td {
+  border-radius: 0px;
+  border: 1px solid black;
+  width: 23px;
+}
+
+p {
+  margin: 1px;
+  padding: 0;
+}
+
+.canvas {
+    background-color: #232323;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+.form-control {
+  display: inline-block;
+  width: auto;
+}
+
+.form-group {
+  display: inline-block;
+  width: 100%;
+}
+
+.floatRight {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+}
+
+.floatLeft {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+}
+
+.myButton:hover {
+  color: white;
+}
+
+#instText {
+  margin: 0 10px;
+  margin-top: 50px;
+  display: none;
+  text-align: center;
+  color: #a79c8e;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+#contentOne {
+  float: left;
+  width: 30%;
+  background-color: #ffffff;
+}
+
+#contentTwo {
+  float: left;
+  width: 70%;
+  background-color: #f8ecc9;
+}
+
+#colorHeadingTwo {
+  display: inline-block;
+}
